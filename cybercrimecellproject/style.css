@@ -1,0 +1,339 @@
+/* For the whole body */
+body
+{
+	font-family: Garamond, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	padding: auto;
+	margin: auto;
+	background-color: #f4f4f4;
+	text-align: justify;
+	
+}
+
+/* Header region */
+header
+{
+	color: #2c3e50;
+	padding-top: 2vh;
+}
+
+/*    For the small header     */
+.department
+{	
+	border-bottom: 1px solid #ddd; 
+	margin-left:10vw;
+}
+
+.department a
+{
+	margin-right: 50px;
+	float: right;
+	color: #2c3e50;
+}
+
+/* For the title and navigation bar of the header */
+.container
+{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* For the title of the header */
+#branding h1
+{
+	text-align: left;
+	margin: 0;
+	font-size: 40px;
+}
+
+header form
+{
+	float: right;
+	width: 35%;
+	margin-bottom: 1vh;
+}
+
+header form input[type="text"]
+{ 
+	padding-left:10px;
+	padding-right:10px;
+	min-width: 20vw;
+	min-height: 4vh;
+}
+
+header form input[type="button"]
+{
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:10px;
+	height:22px;
+
+	min-height: 4vh;
+}
+
+/* For positioning the nav bar*/
+.navbar
+{
+	margin-left:10%;
+}
+/*
+body form input[type="button"]
+{
+	padding-left: 0.5vw;
+	padding-right: 0.5vw;
+	height: 4.5vh;
+}*/
+
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+header a
+{
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+a h1
+{
+	font-family: Garamond, Helvetica, sans-serif;
+	color: #2c3e50;
+}
+
+header li
+{ 
+	float: center;
+	display: inline-block;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+}
+
+nav
+{
+	width:100%;
+	float:left;
+	background-color:#23406e;
+	margin:auto;
+}
+
+nav a:hover
+{
+	padding:1.5vw;
+	background: #f4f4f4;
+	color: #23406e;
+}
+
+a
+{
+	color: white;
+	text-decoration:none;
+}
+
+.main
+{
+	width:15%;	
+	font-size:15px;
+	float:left;
+}
+.mainm
+{
+	width:20%;
+	font-size:15px;
+	margin-left:1.5in;
+	float:left;
+	color:blue;
+}
+
+.cr
+{
+	width:20%;
+	font-size:15px;
+	float:left;
+}
+
+.divis
+{
+	width:100%;
+	float:left;
+	margin-left:1.5in;
+	font-size:30px;
+}
+
+.button 
+{
+    background-color: #23406e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/********* image banner ***********/
+
+.innrbannerbxs 
+{ 
+	float:left; 
+	width:100%; 
+	position:relative;
+	margin-bottom:10px;
+}
+
+.fullinnrbanner {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+.contain {
+    max-width: 1480px;
+    margin: 0 auto;
+}
+
+.innrbannerbxs1 {
+    left: 0;
+    text-align: center;
+    position: relative;
+    top: 0;
+    padding: 10% 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.innrbannerbxs1 span {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    margin-bottom: 5px;
+    background: #d73e2f;
+    height: 5px;
+}
+
+.innrbannerbxs1 h1 {
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 62px;
+}
+
+.innrbannerbxs1 p {
+    font-family: 'ITC Avant Garde Gothic Demi';
+    color: #fff;
+    font-size: 16px;
+}
+
+/*Complaint Form*/
+.com
+{
+	border: black solid;
+	padding: 5vw;
+	border-radius: 30px;
+	background-color: white;
+	width: 60%;
+	margin: 10vh auto;
+	overflow: hidden;
+}
+
+.com form input[type="text"]
+{
+	padding: 8px;
+	width: 20vw;
+	border: 1px solid;
+	border-radius: 1mm;
+}
+
+.com form textarea
+{
+	padding: 8px;
+	width: 30vw;
+	border: 1px solid;
+	border-radius: 1mm;
+}
+
+.buton
+{
+    background-color: #23406e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*Login header*/
+.welcome
+{
+	float: right;
+	margin-right: 5vw;
+}
+
+/*Style for the text 'Logout'*/
+.welcome a
+{
+	color: #2c3e50;
+	font-family: Garamond;
+}
+
+.doc
+{
+	border: solid;
+	border-radius: 10px;
+	margin-bottom: 3vh;
+	padding: 1vw;
+}
+
+/*Latest news*/
+.news li
+{
+	background: #2c3e50;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	border: black solid;
+	border-radius: 10px;
+	padding: 1vw;
+	margin: 1vw;
+}
+
+.cyber
+{
+	color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+#map
+{
+	height: 500px;
+	width: 100%;
+}
+
+table
+{
+	border: solid;
+	border-radius: 5px;
+	text-align: center;
+}
